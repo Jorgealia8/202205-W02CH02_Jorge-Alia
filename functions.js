@@ -19,7 +19,7 @@ export function shitf(array) {
     return item;
 }
 
-export function unshitf(array, item) {
+export function unshitf(array) {
     array.length = array.length + 1;
     return array.length;
 }
