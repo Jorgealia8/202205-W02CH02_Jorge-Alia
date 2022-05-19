@@ -1,11 +1,13 @@
-import { push } from './functions.js';
-import { length } from './functions.js';
-import { pop } from './functions.js';
-import { shitf } from './functions.js';
-import { unshitf } from './functions.js';
-import { some } from './functions.js';
-import { every } from './functions.js';
-import { find } from './functions.js';
+import {
+    push,
+    length,
+    pop,
+    shitf,
+    unshitf,
+    some,
+    every,
+    find,
+} from './functions.js';
 
 describe('Given the function lengt', () => {
     describe('When it receives the parameters aData,', () => {
@@ -38,7 +40,7 @@ describe('Given the function push', () => {
     describe('When it receives the parameters aData,', () => {
         const aData = [4];
         let result;
-        let item = 2;
+        let item = 3;
         let resultexpectec = aData.length + 1;
         result = push(aData, item);
         test('Then it should return resultexpectec', () => {
